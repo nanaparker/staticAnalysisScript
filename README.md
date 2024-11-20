@@ -10,4 +10,5 @@ Current Requirements:
 - PE Studio
 
 Usage:
+
 ./staticAnalysis FILENAME
