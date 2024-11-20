@@ -5,6 +5,7 @@ Write-Host "Getting Hash"
 md5sum $args[0] > Output/FileHash.txt
 sha1sum $args[0] > Output/FileHash.txt
 sha256sum $args[0] > Output/FileHash.txt
+Write-Host "---------------"
 
 Write-Host "Running CAPA"
 capa -v -q $args[0] > Output/capaOutput.txt
