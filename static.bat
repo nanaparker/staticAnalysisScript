@@ -3,7 +3,7 @@ set arg1=%1
 
 mkdir "Output"
 
-echo "Getting Hash"
+echo Getting Hash
 md5sum %arg1% > Output/FileHash.txt
 sha1sum %arg1% >> Output/FileHash.txt
 sha256sum %arg1% >> Output/FileHash.txt
