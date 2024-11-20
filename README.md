@@ -9,5 +9,5 @@ Current Requirements:
 - Detect It Easy
 - PE Studio
 
-#Execution
+# Execution
 ./staticAnalysis <binaryName>
